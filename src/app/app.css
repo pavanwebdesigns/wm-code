@@ -1,6 +1,41 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
+@font-face {
+    font-family: 'All Round Gothic';
+    src: url('/public/fonts/ag-regular.woff2') format('woff2'),
+         url('/public/fonts/ag-regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'All Round Gothic';
+    src: url('/public/fonts/ag-medium.woff') format('woff2'),
+         url('/public/fonts/ag-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'All Round Gothic';
+    src: url('/public/fonts/ag-semibold.woff') format('woff2'),
+         url('/public/fonts/ag-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'All Round Gothic';
+    src: url('/public/fonts/ag-bold.woff') format('woff2'),
+         url('/public/fonts/ag-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -27,4 +62,83 @@ border-radius: 99px;
 .btn.btn-secondary{
     background-color: #1A81A9;
     border: 0;
+}
+
+/* top navbar */
+.top-navbar li a{
+    color: #151433;
+    font-size: 16px;
+    letter-spacing: -1.5%;
+    padding: 5px 24px;
+}
+.top-navbar{
+    padding: 5px 10px;
+
+background: #FFFFFF;
+border: 1px solid #F1EDFF;
+box-shadow: 0px 9px 10px rgba(11, 15, 27, 0.02);
+border-radius: 99px;
+
+
+}
+.top-navbar li a.nav-link.active{
+    color: #D94C27;
+    font-weight: 500;
+}
+.herocontent-top{
+    background: #FFFFFF;
+border: 1px solid #F1EDFF;
+box-shadow: 0px 9px 10px rgba(11, 15, 27, 0.02);
+border-radius: 99px;
+display: inline-block;
+padding: 5px 20px;
+font-size: 15px;
+}
+.hero-text h1{
+    font-family: 'All Round Gothic';
+    font-weight: bolder;
+    font-size: 60px;
+    margin: 20px 0px;
+}
+.hero-subtext{
+    font-size: 20px;
+    font-weight: 300;
+}
+.hero-text{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.text-secondary{
+    color: #1A81A9 !important;
+}
+
+.section.pt-100{
+    padding-top: 100px;
+}
+.section.pb-100{
+    padding-bottom: 100px;
+}
+.section.pt-80{
+    padding-top: 80px;
+}
+.section.pb-80{
+    padding-bottom: 80px;
+}
+.section-header{
+
+font-family: 'All Round Gothic';
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #05011C;
+
+}
+.section-subhead{
+    font-size: 18px;
+    color: #636977;
+    text-align: center;
+    font-weight: 300;
 }
